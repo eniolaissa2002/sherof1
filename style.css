@@ -322,7 +322,7 @@ position: relative;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} 
 #sm-banner .banner-box{
     display: flex;
     flex-direction: column;
@@ -639,7 +639,12 @@ footer a:hover{
     height: 300px;
     object-fit: cover;
 }
-
+.sherof h2{
+    color: orange;
+}
+.sherof h2 span{
+    color: blue;
+}
 
 
 
