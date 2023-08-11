@@ -238,6 +238,18 @@ position: relative;
     transition: 0.2s ease;
     position: relative;
 }
+#product1 .prp{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
 
 #product1 .pro:hover{
     box-shadow: rgba(0, 0, 0, 0.12)
@@ -646,7 +658,9 @@ footer a:hover{
     color: blue;
 }
 
-
+.icon a{
+    font-size: 30px;
+}
 
 #page-header .about-header{
     background-image: url(img/b3.jpeg);
