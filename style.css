@@ -225,7 +225,9 @@ position: relative;
     padding: 20px;
     flex-wrap: wrap;
 }
-
+#product1 .pro-container a{
+    text-decoration: none;
+}
 #product1 .pro{
     width: 23%;
     min-width: 250px;
@@ -665,6 +667,17 @@ footer a:hover{
 #page-header .about-header{
     background-image: url(img/b3.jpeg);
 }
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head div{
+    padding-left: 40px;
+}
 @media (max-width:799px) {
     .section-p1 {
         padding: 40px 40px;
@@ -830,5 +843,21 @@ footer a:hover{
         width: 100%;
         margin-right: 0px;
         margin-bottom: 30px;
+    }
+    #blog .blog-details{
+        width: 100%;
+    }
+
+
+
+    #about-head{
+        flex-direction: column;
+    }
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div{
+        padding-left: 0px;
     }
 }
